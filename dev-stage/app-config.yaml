@@ -36,7 +36,7 @@ integrations:
   github:
     - host: github.com
       apps:
-        - $include: devstage-app-credentials.yaml
+        # - $include: devstage-app-credentials.yaml
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
